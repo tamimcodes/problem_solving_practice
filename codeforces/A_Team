@@ -1,0 +1,13 @@
+# 231A - Team
+
+testcase = int(input())
+
+total = 0
+for i in range(testcase):
+    sum = 0
+    a,b,c = map(int,input().split())  # Read multiple integers from a single line of input
+    sum = a+b+c
+    if sum >= 2:
+        total = total + 1
+
+print(total)
